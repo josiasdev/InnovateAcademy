@@ -14,22 +14,18 @@
     </b>
 </p>
 
-<h2>Funcionalidades:</h2>
-<b>Criação de cursos:</b> Os Usuários podem criar cursos, editar, atualizar e excluir os cursos.<br>
-
 
 <h2> Pré-Requisitos:<h2>
-• Python3.11
-• FastAPI
-• sqlmodel
-• sqlalchemy
-• typing
+• Python3.11<br>
+• FastAPI<br>
+• sqlmodel<br>
+• sqlalchemy<br>
+• typing<br>
 • dotenv
 
 
 <h2>Como Rodar o Projeto</h2>
 
-## 1. Configuração do Back-End
 ### 1.1 Execute o servidor:
 ```
 python3.11 -m uvicorn app.main:app
