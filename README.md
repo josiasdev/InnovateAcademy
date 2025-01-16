@@ -1,5 +1,5 @@
 <div align="center" style="display: flex; justify-content: center; align-items: center">
-  <img src="logo.png" alt="Logo" style="width: 90px; height: 90px; margin-right: 10px;">
+  <img src="logo.png" alt="Logo" style="width: 200px; height: 200px; margin-right: 10px;">
   <h1 style="font-weight: bold; margin: 0;">InnovateAcademyTech</h1>
 </div>
 
