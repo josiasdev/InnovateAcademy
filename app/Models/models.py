@@ -7,7 +7,7 @@ class Curso(SQLModel, table=True):
     nome_curso: str
     descricao: str
     categoria_id: Optional[int] = Field(default=None, foreign_key="categoria.id_categoria")
-    horas_totais: time
+    horas_totais: str
     modulos: List["Modulo"] = Relationship(back_populates='curso')
     instrutor_id: int = Field(foreign_key="instrutor.id_instrutor")
     instrutor: List["Instrutor"] = Relationship(back_populates='cursos')
